@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jenny Garcia">
+    <meta name="description" content="Portafolio de desarrollo WEB">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, React, Angular">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para el CSS -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Link para el bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link para iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- favicon -->
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+     <!-- titulo -->
+    <title>Portafolio Profesional</title>
+</head>
+<body>
+    <!-- Aqui la barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+        <div class="container-fluid">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">
+            <img src="./imagenes/Logo Jenny.png" alt="Logo de Pagina Web" width="70">
+          </a>
+
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonios">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"href="#contacto">Contactos</a>
+              </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+            
+        <!-- seccion Hero -->
+<section class="hero align-items-stretch">
+  <div class="hero-principal d-flex flex-column justify-content-between align-items-center">
+    <img class="hero-imagen-desarrollador rounded-circle" src="./imagenes/JennyCaricatura.webp" alt="Caricatura de Jenny Garcia">
+    <h1>Hola Bienvenidos!!!, Soy Tec. Jenny García</h1>
+    <h2>Desarrollo de sitios Web y Trabajo en Soporte Tecnico</h2>
+  </div>
+  <div class="hero-inferior">
+    <img class="hero-inferior-imagen img-fluid" src="./imagenes/LogoHTML.jpg" alt="Imagen con los logos de HTML, CSS y JavaScript">
+  </div>
+</section>
+
+<!-- Sobre el Desarrollador - Estudiante -->
+<section id ="sobre-mi" class="sobre-mi seccion-oscura">
+  <div class="contenedor">
+        <h2 class="seccion-titulo texto-oscuro">Desarrolladora Jenny García</h2>
+        <p class="seccion-texto">Estudiante de Ingeniería en Sistemas, con experiencia en Soporte Técnico y Desarrollo de Sitios Web. Me apasiona la tecnología y la programación, siempre busco aprender cosas nuevas y mejorar mis habilidades.</p>
+      </div>
+</section>
+
+<!-- Seccion de la experiencia -->
+
+<section class="experiencia seccion-clara">
+  <div class="container text-center">
+    <div class="row">
+      <!-- Titulo desarrollo web -->
+       <div class="columna col-12 col-md-4">
+         <i class="bi bi-laptop"></i>
+         <p class="experiencia-titulo">Desarrollo Web</p>
+         <p>Desarrollo de sitios web, aplicaciones web y sitios de soporte técnico.</p>
+         <div class="badges-contenedor">
+           <span class="badge text-bg-primary">HTML5</span>
+           <span class="badge text-bg-primary">CSS3</span>
+           <span class="badge text-bg-primary">JavaScript</span>
+           <span class="badge text-bg-primary">Bootstrap</span>
+         </div>
+       </div>
+      <!-- Articulos revisados -->
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">Articulos Revisados</p>
+        <p>Articulos revisados en revistas y blogs.</p>
+       <div class="badges-contenedor">
+         <span class="badge text-bg-primary">Escribir</span>
+         <span class="badge text-bg-primary">Editar</span>
+         <span class="badge text-bg-primary">Revisar</span>
+        </div>
+      </div>
+       <!-- Estudiante -->
+      <div class="columna col-12 col-md-4">
+        <i class="bi bi-laptop"></i>
+        <p class="experiencia-titulo">Estudios Realizados</p>
+        <p>Estudios realizados en universidades.</p>
+       <div class="badges-contenedor">
+         <span class="badge text-bg-primary">Frontend</span>
+         <span class="badge text-bg-primary">Python</span>
+         <span class="badge text-bg-primary">JavaScript</span>
+         <span class="badge text-bg-primary">Bootstrap</span>
+       </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Seccion de proyectos -->
+ <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+<h2 class="seccion-titulo texto-negro">Proyectos Recientes</h2>
+<h3 class="seccion-descripcion">Proyectos que he realizado en los últimos años...</h3>
+<!-- Galeria de proyectos -->
+ <div class="container text-center proyectos-contenedor">
+  <div class="row">
+    <!-- proyecto 1 -->
+     <div class="columna col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="./imagenes/Proyecto_1.jpg" alt="Imagen Proyecto 1">
+        <div class="overlay">
+          <p>Proyecto 1</p>
+          <div class="iconos-contenedor">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+          </div>
+          
+        </div>
+      </div>
+     </div>
+     <!-- proyecto 2 -->
+     <div class="columna col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="./imagenes/Proyecto_2.jpg" alt="Imagen Proyecto 2">
+        <div class="overlay">
+          <p>Proyecto 2</p>
+          <div class="iconos-contenedor">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!-- proyecto 3 -->
+     <div class="columna col-12 col-md-6 col-lg-4">
+      <div class="proyecto">
+        <img src="./imagenes/Proyecto_3.jpg" alt="Imagen Proyecto 3">
+        <div class="overlay">
+          <p>Proyecto 3</p>
+          <div class="iconos-contenedor">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>
+ </div>
+
+  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+  <button type="button" class="btn btn-info">Ver más proyectos
+    <i class="bi bi-arrow-right-circle-fill"></i>
+  </button>
+ </a>
+</section>
+
+<!-- Seccion de carrusel de Testimonios -->
+ <section id="testimonios" class="testimonios seccion-clara">
+  <h2 class="seccion-titulo texto-negro">Testimonios Recientes</h2>
+  <h3 class="seccion-descripcion">Estos son algunos de los testimonios que he recibido en los últimos años...</h3>
+  <!-- Carrusel de testimonios -->
+  <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="./imagenes/cliente1.svg" class="d-block w-100" alt="Foto del cliente 1">
+          <div class="testimonio-texto">Ha desarrollado diversos proyectos de programación con un enfoque estructurado                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          . Su habilidad para integrar tecnologías como ASP.NET, Blazor, SQL Server y Power BI demuestra su capacidad para crear soluciones innovadoras y funcionales.</div>
+          <div class="testimonio-info">
+            <p class="cliente">Alejandro González</p>
+            <p class="cargo">Gerente de Proyectos de Desarrollo Web</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="./imagenes/cliente2.svg" class="d-block w-100" alt="Foto del cliente 2">
+          <div class="testimonio-texto">Destaca por su capacidad para desarrollar soluciones tecnológicas eficientes, aplicando buenas prácticas de programación</div>
+          <div class="testimonio-info">
+            <p class="cliente">Laura Rodríguez</p>
+            <p class="cargo">Gerente de Diseño Web</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="./imagenes/cliente3.svg" class="d-block w-100" alt="Foto del cliente 3">
+          <div class="testimonio-texto">Su habilidad para combinar distintas tecnologías en sus proyectos demuestra su enfoque innovador y estructurado.</div>
+          <div class="testimonio-info">
+            <p class="cliente">Brandon Jhonson</p>
+            <p class="cargo">Director de Entrenamiento HTML</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+ </section>
+ <!-- seccion de contacto -->
+  
+ <section id="contacto" class="contacto seccion-oscura">
+  <div class="container">
+    <div class="rectangulo container text-center d-flex justify-content-evenly">
+      <div class="row">
+        <div class="col-12 col-md-4 seccion-titulo">
+          ¡Si quieres contactarme, puedes hacerlo a través de los siguientes medios!
+        </div>
+        <div class="col-12 col-md-4 descripcion">
+          ¡Si tienes alguna pregunta o quieres contactarme para un proyecto WEB, no dudes en escribirme!
+        </div>
+        <div class="col-12 col-md-4 iconos-contenedor">
+          <a href="mailto:jennifergarcia.dev@gmail.com">
+           <button type="button">
+            Contacto
+            <i class="bi bi-envelope-at-fill"></i>
+            </button>
+           </a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+
+<!-- Footer -->
+ <footer class="seccion-oscura d-flex flex-column justify-content-center align-items-center">
+  <img class="footer-logo" src="./imagenes/Iconofooter.svg" alt="Logo de Portafolio Profesional">
+    <p class="footer-texto text-center"> Aprendo y Desarrollo todos los dias. <br> Diseñemos Juntos. <br> ¡Nos Conectamos!</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter-x"></i>
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+      </a>
+  </div>
+
+  <div class="derechos-de-autor">Creado por tu desarrolladora Junior(2025) &copy;</div>
+ </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>
